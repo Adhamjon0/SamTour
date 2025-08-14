@@ -1,0 +1,152 @@
+{
+    "header": {
+        "home": "首页",
+        "about": "关于我们",
+        "services": "服务",
+        "contact": "联系",
+        "gallery": "画廊",
+        "menu": "菜单",
+        "main_navigation": "主导航",
+        "language_selector": "选择语言"
+    },
+    "footer": {
+        "description": "优质服务、专业导游和难忘的旅行，与我们同行！",
+        "quick_links": "快速链接",
+        "connect": "联系我们",
+        "rights": "版权所有。"
+    },
+    "nav": {
+        "home": "首页",
+        "about": "关于我们",
+        "services": "服务",
+        "contact": "联系",
+        "gallery": "画廊"
+    },
+    "home": {
+        "slides": [
+            {
+                "title": "雷吉斯坦广场 — 您的冒险从这里开始",
+                "subtitle": "探索撒马尔罕中心壮丽的雷吉斯坦广场。"
+            },
+            {
+                "title": "比比哈努姆清真寺 — 皇家遗产",
+                "subtitle": "见证中亚最大历史清真寺之一的宏伟。"
+            },
+            {
+                "title": "阿米尔·帖木儿 — 永恒的力量",
+                "subtitle": "踏入古尔-埃米尔陵墓中阿米尔·帖木儿的荣耀。"
+            },
+            {
+                "title": "伊斯兰·卡里莫夫纪念馆",
+                "subtitle": "在宁静的环境中缅怀乌兹别克斯坦首任总统。"
+            },
+            {
+                "title": "撒马尔罕市景",
+                "subtitle": "感受古老街道与现代魅力的融合。"
+            },
+            {
+                "title": "东方明珠",
+                "subtitle": "探索这座传奇城市的永恒优雅。"
+            },
+            {
+                "title": "乌兹别克美食",
+                "subtitle": "品尝数百年丰富烹饪文化的传统菜肴。"
+            }
+        ],
+        "get_in_touch": "联系我们",
+        "learn_more": "了解更多",
+        "previous": "← 上一页",
+        "next": "下一页 →"
+    },
+    "about": {
+        "title": "探索撒马尔罕及更多",
+        "lead": "踏上前往乌兹别克斯坦的旅程——在古老文化与现代热情交融的撒马尔罕。SamTour 为您提供安全而难忘的历史之旅。",
+        "mission_title": "我们的使命",
+        "mission_desc": "将旅行者与乌兹别克斯坦的真实灵魂相连——从撒马尔罕的蓝色瓷砖清真寺到布哈拉和希瓦的古老街道。我们相信每一次旅行都应该是一段故事，并帮助您创造属于自己的故事。",
+        "why_title": "为什么选择 SamTour？",
+        "expertise_title": "本地经验",
+        "expertise_desc": "我们的导游非常了解乌兹别克斯坦的著名景点及其隐藏的秘密。",
+        "personalized_title": "个性化旅游",
+        "personalized_desc": "每个行程都根据您的兴趣、时间表和梦想量身定制。",
+        "support_title": "快速联系",
+        "support_desc": "通过 Instagram、WhatsApp 或 Telegram 快速联系——我们始终在您身边。",
+        "explore_title": "探索历史地区",
+        "samarkand": {
+            "title": "撒马尔罕",
+            "desc": "丝绸之路的心脏。探索雷吉斯坦、古尔-埃米尔和沙赫-伊-津达——每一块瓷砖都讲述着故事。"
+        },
+        "tashkent": {
+            "title": "塔什干",
+            "desc": "乌兹别克斯坦的现代首都——现代建筑、繁忙的集市与深厚的传统相融合。"
+        },
+        "khiva": {
+            "title": "希瓦",
+            "desc": "古老城墙内的活博物馆。漫步在伊昌卡拉，仿佛时光停滞。"
+        },
+        "bukhara": {
+            "title": "布哈拉",
+            "desc": "伊斯兰世界的精神和学术中心——古老的清真寺、经学院和驿站的故乡。"
+        },
+        "shahrisabz": {
+            "title": "沙赫里萨布兹",
+            "desc": "阿米尔·帖木儿的出生地。参观阿克萨莱宫殿遗迹，追随伟大征服者的足迹。"
+        },
+        "cta_title": "今天就开始您的旅程",
+        "cta_desc": "我们将为您打造一段终身难忘的旅行。与我们一起探索乌兹别克斯坦的古老灵魂。",
+        "contact_button": "联系我们"
+    },
+    "services": {
+        "title": "我们的服务",
+        "lead": "与 SamTour 一起探索乌兹别克斯坦——舒适、个性化且难忘的旅行，为您量身打造。",
+        "service_list": {
+            "private_tours": {
+                "title": "私人旅游",
+                "desc": "根据您的需求定制的专属旅行。私人团体、私人导游、完全灵活。"
+            },
+            "historical_journeys": {
+                "title": "历史之旅",
+                "desc": "探索乌兹别克斯坦的永恒奇观——雷吉斯坦、沙赫-伊-津达、乌鲁伯克天文台等。"
+            },
+            "photo_tours": {
+                "title": "摄影之旅",
+                "desc": "与专业摄影师一起出行，捕捉乌兹别克斯坦的独特风景。难忘的回忆有保证。"
+            },
+            "custom_packages": {
+                "title": "定制套餐",
+                "desc": "根据您的时间、预算和兴趣设计独特路线。完全个性化体验。"
+            },
+            "nationwide_travel": {
+                "title": "全国旅行",
+                "desc": "从塔什干到布哈拉，从希瓦到费尔干纳——与我们一起探索乌兹别克斯坦的每个角落。"
+            },
+            "cultural_immersion": {
+                "title": "文化沉浸",
+                "desc": "通过当地美食、传统和热情好客感受乌兹别克斯坦的丰富文化。"
+            }
+        },
+        "regions_title": "覆盖地区",
+        "regions_desc": "我们在乌兹别克斯坦最著名的目的地组织旅游。不论在哪个地区——我们都能带您前往。",
+        "cta_title": "今天就开始您的旅程",
+        "cta_desc": "不知道去哪里？立即联系我们——我们将为您制定独特的旅行计划。",
+        "contact_button": "联系我们"
+    },
+    "contact": {
+        "title": "联系我们",
+        "description": "我们准备好帮助您规划一次难忘的乌兹别克斯坦之旅。请填写下方表格——我们将尽快与您联系。",
+        "form": {
+            "full_name": "全名",
+            "country": "您来自哪里？",
+            "phone": "电话号码",
+            "email": "电子邮箱",
+            "date": "旅行日期",
+            "message": "留言",
+            "message_placeholder": "请告诉我们您的旅行愿望...",
+            "submit": "发送消息"
+        },
+        "status": {
+            "success": "您的消息已成功发送！",
+            "error": "请填写所有字段。"
+        },
+        "errorField": "此字段为必填项"
+    }
+}

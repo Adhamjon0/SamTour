@@ -1,0 +1,152 @@
+{
+    "header": {
+        "home": "Accueil",
+        "about": "À propos",
+        "services": "Services",
+        "contact": "Contact",
+        "gallery": "Galerie",
+        "menu": "Menu",
+        "main_navigation": "Navigation principale",
+        "language_selector": "Sélecteur de langue"
+    },
+    "footer": {
+        "description": "Des services de haute qualité, une assistance professionnelle et des voyages inoubliables pour vous !",
+        "quick_links": "Liens rapides",
+        "connect": "Nous contacter",
+        "rights": "Tous droits réservés."
+    },
+    "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "services": "Services",
+        "contact": "Contact",
+        "gallery": "Galerie"
+    },
+    "home": {
+        "slides": [
+            {
+                "title": "Registan — Votre prochaine aventure",
+                "subtitle": "Explorez le cœur de Samarcande sur la magnifique place du Registan."
+            },
+            {
+                "title": "Bibi-Khanym — Héritage royal",
+                "subtitle": "Admirez la grandeur de l'une des plus grandes mosquées historiques d'Asie centrale."
+            },
+            {
+                "title": "Amir Temur — Pouvoir éternel",
+                "subtitle": "Entrez dans la gloire d’Amir Temur dans son mausolée emblématique Gur-e-Amir."
+            },
+            {
+                "title": "Mémorial Islam Karimov",
+                "subtitle": "Rendez hommage au premier président de l’Ouzbékistan dans un cadre serein."
+            },
+            {
+                "title": "Paysage urbain de Samarcande",
+                "subtitle": "Découvrez des rues anciennes mêlées à un charme moderne."
+            },
+            {
+                "title": "Perle de l’Orient",
+                "subtitle": "Découvrez l'élégance intemporelle de cette ville légendaire."
+            },
+            {
+                "title": "Saveurs d’Ouzbékistan",
+                "subtitle": "Savourez des plats traditionnels issus de siècles de riche culture culinaire."
+            }
+        ],
+        "get_in_touch": "Nous contacter",
+        "learn_more": "En savoir plus",
+        "previous": "← Précédent",
+        "next": "Suivant →"
+    },
+    "about": {
+        "title": "Découvrez Samarcande et au-delà",
+        "lead": "Bienvenue à Samarcande, le cœur de l’Ouzbékistan, où la culture ancienne rencontre l’hospitalité moderne. SamTour propose des voyages sûrs et inoubliables vers les régions les plus historiques du pays.",
+        "mission_title": "Notre mission",
+        "mission_desc": "Relier les voyageurs à l'esprit véritable de l’Ouzbékistan – des mosquées bleues de Samarcande aux rues anciennes de Boukhara et Khiva. Nous croyons que chaque voyage doit être une histoire, et nous voulons écrire cette histoire avec vous.",
+        "why_title": "Pourquoi choisir SamTour ?",
+        "expertise_title": "Expertise locale",
+        "expertise_desc": "Nos guides connaissent non seulement les monuments célèbres mais aussi les secrets cachés de l’Ouzbékistan.",
+        "personalized_title": "Tours personnalisés",
+        "personalized_desc": "Chaque itinéraire est adapté à vos intérêts, à votre emploi du temps et à vos rêves.",
+        "support_title": "Communication rapide",
+        "support_desc": "Nous sommes disponibles à tout moment via Instagram, WhatsApp ou Telegram.",
+        "explore_title": "Explorer les régions historiques",
+        "samarkand": {
+            "title": "Samarcande",
+            "desc": "Le cœur de la Route de la Soie. Registan, Gur-e-Amir, Shah-i-Zinda – chaque mosaïque raconte une histoire."
+        },
+        "tashkent": {
+            "title": "Tachkent",
+            "desc": "La capitale de l’Ouzbékistan, où l’architecture moderne rencontre les bazars vivants et les traditions profondes."
+        },
+        "khiva": {
+            "title": "Khiva",
+            "desc": "Un musée vivant dans des murs anciens. À Itchan Kala, on a l’impression que le temps s’est arrêté."
+        },
+        "bukhara": {
+            "title": "Boukhara",
+            "desc": "Centre spirituel et scientifique du monde islamique, avec des mosquées antiques, des médersas et des caravansérails."
+        },
+        "shahrisabz": {
+            "title": "Shahrisabz",
+            "desc": "Ville natale d’Amir Temur. Visitez les ruines du palais Ak-Saray et suivez les traces du grand dirigeant."
+        },
+        "cta_title": "Commencez votre voyage dès aujourd’hui",
+        "cta_desc": "Créons ensemble un voyage que vous n’oublierez jamais. Découvrez l’esprit ancien de l’Ouzbékistan avec nous.",
+        "contact_button": "Nous contacter"
+    },
+    "services": {
+        "title": "Nos services",
+        "lead": "Découvrez l’Ouzbékistan avec SamTour – des voyages confortables et inoubliables, adaptés à vous.",
+        "service_list": {
+            "private_tours": {
+                "title": "Tours privés",
+                "desc": "Voyages entièrement personnalisés – votre propre guide, groupes exclusifs, horaires flexibles."
+            },
+            "historical_journeys": {
+                "title": "Voyages historiques",
+                "desc": "Explorez les monuments éternels de l’Ouzbékistan tels que Registan, Shah-i-Zinda et l’observatoire d’Ulugbek."
+            },
+            "photo_tours": {
+                "title": "Tours photo",
+                "desc": "Capturez la beauté de l’Ouzbékistan avec des photographes professionnels – souvenirs garantis."
+            },
+            "custom_packages": {
+                "title": "Forfaits personnalisés",
+                "desc": "Itinéraires entièrement adaptés à votre temps, votre budget et vos intérêts."
+            },
+            "nationwide_travel": {
+                "title": "Voyages à l’échelle nationale",
+                "desc": "De Tachkent à Boukhara, de Khiva à la vallée de Ferghana – nous vous y conduirons."
+            },
+            "cultural_immersion": {
+                "title": "Immersion culturelle",
+                "desc": "Découvrez la culture ouzbèke à travers sa cuisine, ses traditions et son hospitalité."
+            }
+        },
+        "regions_title": "Régions couvertes",
+        "regions_desc": "Nous proposons des tours dans toutes les grandes régions de l’Ouzbékistan. Où que ce soit – nous vous y emmènerons.",
+        "cta_title": "Commencez votre voyage maintenant",
+        "cta_desc": "Vous ne savez pas où aller ? Contactez-nous – nous créerons un itinéraire unique.",
+        "contact_button": "Nous contacter"
+    },
+    "contact": {
+        "title": "Nous contacter",
+        "description": "Planifions ensemble votre voyage inoubliable en Ouzbékistan. Remplissez le formulaire et nous vous répondrons rapidement.",
+        "form": {
+            "full_name": "Nom complet",
+            "country": "Pays",
+            "phone": "Numéro de téléphone",
+            "email": "E-mail",
+            "date": "Date du voyage",
+            "message": "Message",
+            "message_placeholder": "Écrivez vos souhaits ou questions...",
+            "submit": "Envoyer"
+        },
+        "status": {
+            "success": "Message envoyé avec succès !",
+            "error": "Veuillez remplir tous les champs."
+        },
+        "errorField": "Ce champ est requis"
+    }
+}

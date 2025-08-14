@@ -1,0 +1,152 @@
+{
+    "header": {
+        "home": "Startseite",
+        "about": "Über uns",
+        "services": "Dienstleistungen",
+        "contact": "Kontakt",
+        "gallery": "Galerie",
+        "menu": "Menü",
+        "main_navigation": "Hauptnavigation",
+        "language_selector": "Sprache auswählen"
+    },
+    "footer": {
+        "description": "Hochwertige Dienstleistungen, professionelle Unterstützung und unvergessliche Reisen für Sie!",
+        "quick_links": "Schnellzugriff",
+        "connect": "Kontakt aufnehmen",
+        "rights": "Alle Rechte vorbehalten."
+    },
+    "nav": {
+        "home": "Startseite",
+        "about": "Über uns",
+        "services": "Dienstleistungen",
+        "contact": "Kontakt",
+        "gallery": "Galerie"
+    },
+    "home": {
+        "slides": [
+            {
+                "title": "Registan — Dein nächstes Abenteuer",
+                "subtitle": "Erkunde das Herz von Samarkand am prächtigen Registan-Platz."
+            },
+            {
+                "title": "Bibi-Chanum — Königliches Erbe",
+                "subtitle": "Erlebe die Pracht einer der größten historischen Moscheen Zentralasiens."
+            },
+            {
+                "title": "Amir Temur — Ewige Macht",
+                "subtitle": "Tauche ein in den Glanz von Amir Temur in seinem ikonischen Mausoleum Gur-e-Amir."
+            },
+            {
+                "title": "Islom Karimov Gedenkstätte",
+                "subtitle": "Ehre den ersten Präsidenten Usbekistans in einer ruhigen Umgebung."
+            },
+            {
+                "title": "Stadtbild von Samarkand",
+                "subtitle": "Erlebe antike Straßen, die mit modernem Charme verschmelzen."
+            },
+            {
+                "title": "Perle des Ostens",
+                "subtitle": "Entdecke zeitlose Eleganz in der legendären Stadt."
+            },
+            {
+                "title": "Usbekistans Geschmack",
+                "subtitle": "Genieße traditionelle Gerichte aus Jahrhunderten reicher Kochkultur."
+            }
+        ],
+        "get_in_touch": "Kontakt aufnehmen",
+        "learn_more": "Mehr erfahren",
+        "previous": "← Zurück",
+        "next": "Weiter →"
+    },
+    "about": {
+        "title": "Entdecke Samarkand und darüber hinaus",
+        "lead": "Willkommen in Samarkand, dem Herzen Usbekistans, wo antike Kultur und moderne Gastfreundschaft aufeinandertreffen. SamTour bietet sichere und unvergessliche Reisen zu den historischsten Regionen des Landes.",
+        "mission_title": "Unsere Mission",
+        "mission_desc": "Reisende mit dem wahren Geist Usbekistans zu verbinden – von den blauen Moscheen Samarkands bis zu den alten Straßen von Buchara und Chiwa. Wir glauben, dass jede Reise eine Geschichte sein sollte, und wir möchten Ihre Geschichte gemeinsam schreiben.",
+        "why_title": "Warum SamTour wählen?",
+        "expertise_title": "Lokale Expertise",
+        "expertise_desc": "Unsere Guides kennen nicht nur die berühmten Sehenswürdigkeiten, sondern auch die verborgenen Geheimnisse Usbekistans.",
+        "personalized_title": "Personalisierte Touren",
+        "personalized_desc": "Jede Reiseroute wird an Ihre Interessen, Ihren Zeitplan und Ihre Träume angepasst.",
+        "support_title": "Schnelle Kommunikation",
+        "support_desc": "Wir sind jederzeit über Instagram, WhatsApp oder Telegram erreichbar.",
+        "explore_title": "Erkunde historische Regionen",
+        "samarkand": {
+            "title": "Samarkand",
+            "desc": "Das Herz der Seidenstraße. Registan, Gur-e-Amir, Shah-i-Zinda – jedes Mosaik erzählt eine Geschichte."
+        },
+        "tashkent": {
+            "title": "Taschkent",
+            "desc": "Die Hauptstadt Usbekistans, in der moderne Architektur, lebendige Basare und tiefe Traditionen zusammenkommen."
+        },
+        "khiva": {
+            "title": "Chiwa",
+            "desc": "Ein lebendiges Museum innerhalb alter Mauern. In Ichan Kala fühlt es sich an, als wäre die Zeit stehengeblieben."
+        },
+        "bukhara": {
+            "title": "Buchara",
+            "desc": "Das spirituelle und wissenschaftliche Zentrum der islamischen Welt mit antiken Moscheen, Medresen und Karawansereien."
+        },
+        "shahrisabz": {
+            "title": "Schahrisabs",
+            "desc": "Geburtsort von Amir Temur. Besuche die Ruinen des Ak-Saray-Palastes und folge den Spuren des großen Führers."
+        },
+        "cta_title": "Beginne deine Reise noch heute",
+        "cta_desc": "Lass uns gemeinsam eine Reise schaffen, die du nie vergessen wirst. Entdecke den antiken Geist Usbekistans mit uns.",
+        "contact_button": "Kontakt aufnehmen"
+    },
+    "services": {
+        "title": "Unsere Dienstleistungen",
+        "lead": "Entdecke Usbekistan mit SamTour – komfortable und unvergessliche Reisen, die auf dich zugeschnitten sind.",
+        "service_list": {
+            "private_tours": {
+                "title": "Private Touren",
+                "desc": "Vollständig personalisierte Reisen – dein eigener Guide, exklusive Gruppen, flexibler Zeitplan."
+            },
+            "historical_journeys": {
+                "title": "Historische Reisen",
+                "desc": "Erkunde Usbekistans ewige Wahrzeichen wie Registan, Shah-i-Zinda und das Ulugbek-Observatorium."
+            },
+            "photo_tours": {
+                "title": "Fototouren",
+                "desc": "Nimm die Schönheit Usbekistans mit professionellen Fotografen auf – unvergessliche Erinnerungen garantiert."
+            },
+            "custom_packages": {
+                "title": "Individuelle Pakete",
+                "desc": "Komplett maßgeschneiderte Routen basierend auf deiner Zeit, deinem Budget und deinen Interessen."
+            },
+            "nationwide_travel": {
+                "title": "Landesweite Reisen",
+                "desc": "Von Taschkent nach Buchara, von Chiwa bis ins Ferganatal – wir bringen dich überall hin."
+            },
+            "cultural_immersion": {
+                "title": "Kulturelles Eintauchen",
+                "desc": "Erlebe usbekische Kultur durch Küche, Traditionen und Gastfreundschaft."
+            }
+        },
+        "regions_title": "Regionen, die wir abdecken",
+        "regions_desc": "Wir bieten Touren in allen wichtigen Regionen Usbekistans an. Egal wohin – wir begleiten dich.",
+        "cta_title": "Beginne deine Reise jetzt",
+        "cta_desc": "Nicht sicher, wohin? Kontaktiere uns – wir erstellen einen einzigartigen Reiseplan.",
+        "contact_button": "Kontakt aufnehmen"
+    },
+    "contact": {
+        "title": "Kontakt aufnehmen",
+        "description": "Lass uns deine unvergessliche Reise nach Usbekistan planen. Fülle das Formular aus, und wir melden uns bald bei dir.",
+        "form": {
+            "full_name": "Vollständiger Name",
+            "country": "Land",
+            "phone": "Telefonnummer",
+            "email": "E-Mail",
+            "date": "Reisedatum",
+            "message": "Nachricht",
+            "message_placeholder": "Schreibe deine Wünsche oder Fragen...",
+            "submit": "Senden"
+        },
+        "status": {
+            "success": "Nachricht erfolgreich gesendet!",
+            "error": "Bitte alle Felder ausfüllen."
+        },
+        "errorField": "Dieses Feld ist erforderlich"
+    }
+}

@@ -1,0 +1,152 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "contact": "Contact",
+        "gallery": "Gallery",
+        "menu": "Menu",
+        "main_navigation": "Main Navigation",
+        "language_selector": "Language Selector"
+    },
+    "footer": {
+        "description": "Join us for the best services, expert guides, and unforgettable journeys!",
+        "quick_links": "Quick Links",
+        "connect": "Connect",
+        "rights": "All rights reserved."
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "contact": "Contact",
+        "gallery": "Gallery"
+    },
+    "home": {
+        "slides": [
+            {
+                "title": "Registan — Your Next Adventure",
+                "subtitle": "Explore the heart of Samarkand at the magnificent Registan Square."
+            },
+            {
+                "title": "Bibikhonim — Royal Legacy",
+                "subtitle": "Witness the grandeur of one of Central Asia’s largest historical mosques."
+            },
+            {
+                "title": "Amir Temur — Eternal Power",
+                "subtitle": "Step into the glory of Amir Temur at his iconic mausoleum Gur-e-Amir."
+            },
+            {
+                "title": "Islom Karimov Memorial",
+                "subtitle": "Pay respects to Uzbekistan’s first president in a serene setting."
+            },
+            {
+                "title": "Samarkand Cityscape",
+                "subtitle": "Experience ancient streets blended with modern charm."
+            },
+            {
+                "title": "Pearl of the East",
+                "subtitle": "Discover timeless elegance throughout the legendary city."
+            },
+            {
+                "title": "Taste Uzbekistan",
+                "subtitle": "Savor traditional dishes from centuries of rich culinary culture."
+            }
+        ],
+        "get_in_touch": "Get in Touch",
+        "learn_more": "Learn More",
+        "previous": "← Previous",
+        "next": "Next →"
+    },
+    "about": {
+        "title": "Explore Samarkand and Beyond",
+        "lead": "Travel to Uzbekistan’s Samarkand — where ancient culture meets modern hospitality. SamTour offers safe, unforgettable historical journeys.",
+        "mission_title": "Our Mission",
+        "mission_desc": "We connect travelers to the true soul of Uzbekistan, from Samarkand’s blue-tiled mosques to the old streets of Bukhara and Khiva. We believe every journey is a story — and we help you create yours.",
+        "why_title": "Why Choose SamTour",
+        "expertise_title": "Local Expertise",
+        "expertise_desc": "Our guides know the famous landmarks and hidden treasures of Uzbekistan.",
+        "personalized_title": "Tailored Journeys",
+        "personalized_desc": "Every itinerary is designed around your interests, schedule, and dreams.",
+        "support_title": "Quick Communication",
+        "support_desc": "Reach us instantly via Instagram, WhatsApp, or Telegram — we’re always here.",
+        "explore_title": "Explore Historical Regions",
+        "samarkand": {
+            "title": "Samarkand",
+            "desc": "The heart of the Silk Road. Explore Registan, Gur-e-Amir, and Shah-i-Zinda — every tile tells a story."
+        },
+        "tashkent": {
+            "title": "Tashkent",
+            "desc": "The modern capital of Uzbekistan — a blend of contemporary architecture, vibrant bazaars, and deep traditions."
+        },
+        "khiva": {
+            "title": "Khiva",
+            "desc": "A living museum inside ancient walls. Walk through Ichan Kala and feel time stand still."
+        },
+        "bukhara": {
+            "title": "Bukhara",
+            "desc": "The spiritual and scholarly heart of the Islamic world — home to ancient mosques, madrasahs, and caravanserais."
+        },
+        "shahrisabz": {
+            "title": "Shahrisabz",
+            "desc": "The birthplace of Amir Temur. Visit the remains of the Ak-Saray Palace and follow in the footsteps of the great conqueror."
+        },
+        "cta_title": "Start Your Journey Now",
+        "cta_desc": "We will design a trip you will remember for a lifetime. Discover the ancient soul of Uzbekistan with us.",
+        "contact_button": "Contact Us"
+    },
+    "services": {
+        "title": "Our Services",
+        "lead": "Travel through Uzbekistan with SamTour — comfortable, personalized, and unforgettable experiences await.",
+        "service_list": {
+            "private_tours": {
+                "title": "Private Tours",
+                "desc": "Exclusive trips designed to meet your needs. Private groups, personal guides, and complete flexibility."
+            },
+            "historical_journeys": {
+                "title": "Historical Journeys",
+                "desc": "Discover Uzbekistan’s timeless wonders — Registan, Shah-i-Zinda, Ulugh Beg Observatory, and more."
+            },
+            "photo_tours": {
+                "title": "Photography Tours",
+                "desc": "Capture Uzbekistan’s unique landscapes with a professional photographer. Memories guaranteed."
+            },
+            "custom_packages": {
+                "title": "Custom Packages",
+                "desc": "We design special routes based on your schedule, budget, and interests."
+            },
+            "nationwide_travel": {
+                "title": "Nationwide Travel",
+                "desc": "From Tashkent to Bukhara, Khiva to the Fergana Valley — we travel all over Uzbekistan."
+            },
+            "cultural_immersion": {
+                "title": "Cultural Immersion",
+                "desc": "Experience Uzbekistan’s rich culture through local cuisine, traditions, and hospitality."
+            }
+        },
+        "regions_title": "Regions We Serve",
+        "regions_desc": "We operate tours in Uzbekistan’s most famous destinations. Wherever you want to go — we’re there.",
+        "cta_title": "Start Your Journey Now",
+        "cta_desc": "Not sure where to go? Contact us today — we’ll plan something special for you.",
+        "contact_button": "Contact Us"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "description": "Let us help you plan an unforgettable trip to Uzbekistan. Fill out the form below and we’ll get back to you as soon as possible.",
+        "form": {
+            "full_name": "Full Name",
+            "country": "Country of Origin",
+            "phone": "Phone Number",
+            "email": "Email",
+            "date": "Travel Date",
+            "message": "Message",
+            "message_placeholder": "Tell us about your travel wishes...",
+            "submit": "Send Message"
+        },
+        "status": {
+            "success": "Your message has been sent successfully!",
+            "error": "Please fill out all fields."
+        },
+        "errorField": "This field is required"
+    }
+}

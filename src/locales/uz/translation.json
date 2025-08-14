@@ -1,0 +1,152 @@
+{
+    "header": {
+        "home": "Bosh sahifa",
+        "about": "Biz haqimizda",
+        "services": "Xizmatlar",
+        "contact": "Aloqa",
+        "gallery": "Galereya",
+        "menu": "Menyu",
+        "main_navigation": "Asosiy navigatsiya",
+        "language_selector": "Tilni tanlang"
+    },
+    "footer": {
+        "description": "Sifatli xizmat, professional gidlik va unutilmas sayohatlar biz bilan!",
+        "quick_links": "Tezkor havolalar",
+        "connect": "Biz bilan bog'laning",
+        "rights": "Barcha huquqlar himoyalangan."
+    },
+    "nav": {
+        "home": "Bosh sahifa",
+        "about": "Biz haqimizda",
+        "services": "Xizmatlar",
+        "contact": "Aloqa",
+        "gallery": "Galereya"
+    },
+    "home": {
+        "slides": [
+            {
+                "title": "Registon — Sarguzashtingiz boshlanadi",
+                "subtitle": "Samarqand yuragidagi ulug‘vor Registon maydonini kashf eting."
+            },
+            {
+                "title": "Bibixonim — Qirollik merosi",
+                "subtitle": "Markaziy Osiyodagi eng yirik tarixiy masjidlardan birining ulug‘vorligiga guvoh bo‘ling."
+            },
+            {
+                "title": "Amir Temur — Abadiy qudrat",
+                "subtitle": "Amir Temurning Gur-Amir maqbarasidagi shon-shuhratiga qadam qo‘ying."
+            },
+            {
+                "title": "Islom Karimov yodgorligi",
+                "subtitle": "O‘zbekistonning birinchi prezidentiga osoyishta muhitda hurmat bajo keltiring."
+            },
+            {
+                "title": "Samarqand shahar manzarasi",
+                "subtitle": "Qadimiy ko‘chalar va zamonaviy jozibaning uyg‘unligini his eting."
+            },
+            {
+                "title": "Sharq gavhari",
+                "subtitle": "Afsonaviy shaharning abadiy go‘zalligini kashf eting."
+            },
+            {
+                "title": "O‘zbekiston taomlari",
+                "subtitle": "Asrlar osha davom etgan boy oshpazlik an'analaridan bahra oling."
+            }
+        ],
+        "get_in_touch": "Bog‘lanish",
+        "learn_more": "Batafsil",
+        "previous": "← Oldingi",
+        "next": "Keyingi →"
+    },
+    "about": {
+        "title": "Samarqand va undan ortiqchasini kashf eting",
+        "lead": "O‘zbekiston yuragiga — qadimiy madaniyat va zamonaviy mehmondo‘stlik uyg‘unlashgan Samarqand shahriga sayohat qiling. SamTour sizga O‘zbekistonning eng tarixiy hududlarida xavfsiz va esda qolarli sayohatlarni taqdim etadi.",
+        "mission_title": "Bizning missiyamiz",
+        "mission_desc": "Sayohatchilarni O‘zbekistonning haqiqiy ruhi bilan bog‘lash — Samarqanddagi moviy koshinkor masjidlardan tortib, Buxoro va Xivaning qadimiy ko‘chalarigacha. Har bir safar hikoya bo‘lishi kerak deb hisoblaymiz va sizning hikoyangizni yaratishda yordam beramiz.",
+        "why_title": "Nega aynan SamTour?",
+        "expertise_title": "Mahalliy tajriba",
+        "expertise_desc": "Yo‘lboshchilarimiz O‘zbekistonning mashhur joylari va ularning yashirin sirlarini juda yaxshi bilishadi.",
+        "personalized_title": "Shaxsiylashtirilgan turlar",
+        "personalized_desc": "Har bir yo‘nalish sizning qiziqishlaringiz, jadvalingiz va orzularingizga mos ravishda tuziladi.",
+        "support_title": "Tezkor aloqa",
+        "support_desc": "Instagram, WhatsApp yoki Telegram orqali tezkor bog‘laning — biz doim yaqinmiz.",
+        "explore_title": "Tarixiy hududlarni o‘rganing",
+        "samarkand": {
+            "title": "Samarqand",
+            "desc": "Ipak yo‘lining yuragi. Registon, Go‘ri Amir va Shohi Zindani kashf eting — har bir koshin o‘z hikoyasini aytadi."
+        },
+        "tashkent": {
+            "title": "Toshkent",
+            "desc": "O‘zbekistonning zamonaviy poytaxti — zamonaviy arxitektura, gavjum bozorlari va chuqur an'analar uyg‘unligi."
+        },
+        "khiva": {
+            "title": "Xiva",
+            "desc": "Qadimiy devorlar ichidagi tirik muzey. Ichan Qal'ani aylanib, vaqt to‘xtaganday his eting."
+        },
+        "bukhara": {
+            "title": "Buxoro",
+            "desc": "Islom dunyosining ma'naviy va ilmiy markazi — qadimiy masjidlar, madrasalar va karvonsaroylar maskani."
+        },
+        "shahrisabz": {
+            "title": "Shahrisabz",
+            "desc": "Amir Temur tug‘ilgan shahar. Oqsaroy saroyi qoldiqlarini ko‘ring va buyuk sarkardaning izidan boring."
+        },
+        "cta_title": "Sayohatingizni bugunoq boshlang",
+        "cta_desc": "Siz bilan birga umr bo‘yi esda qoladigan sayohatni yaratamiz. O‘zbekistonning qadimiy ruhini biz bilan kashf eting.",
+        "contact_button": "Biz bilan bog‘laning"
+    },
+    "services": {
+        "title": "Xizmatlarimiz",
+        "lead": "SamTour bilan O‘zbekistonni kashf eting — qulay, shaxsiylashtirilgan va unutilmas sayohatlar aynan siz uchun.",
+        "service_list": {
+            "private_tours": {
+                "title": "Shaxsiy turlar",
+                "desc": "Sizning istaklaringiz asosida moslashtirilgan yakka tartibdagi sayohatlar. Maxsus guruhlar, shaxsiy gid, to‘liq moslashuvchanlik."
+            },
+            "historical_journeys": {
+                "title": "Tarixiy sayohatlar",
+                "desc": "O‘zbekistonning abadiy mo‘jizalarini o‘rganing — Registon, Shohi Zinda, Ulug‘bek rasadxonasi va boshqalar."
+            },
+            "photo_tours": {
+                "title": "Foto sayohatlar",
+                "desc": "Professional fotograf bilan yo‘lga chiqing va O‘zbekistonning betakror manzaralarini tasvirga oling. Unutilmas xotiralar kafolatlangan."
+            },
+            "custom_packages": {
+                "title": "Maxsus paketlar",
+                "desc": "Vaqtingiz, byudjetingiz va qiziqishlaringiz asosida o‘zingizga mos marshrut tuzing. To‘liq shaxsiylashtirilgan tajriba."
+            },
+            "nationwide_travel": {
+                "title": "Butun mamlakat bo‘ylab sayohat",
+                "desc": "Toshkentdan Buxorogacha, Xivadan Farg‘onagacha — O‘zbekistonning har bir go‘shasini biz bilan kashf eting."
+            },
+            "cultural_immersion": {
+                "title": "Madaniy muhitga sho‘ng‘ish",
+                "desc": "O‘zbekistonning boy madaniyatini mahalliy taomlar, an’analar va mehmondo‘stlik orqali his eting."
+            }
+        },
+        "regions_title": "Qamrab olingan hududlar",
+        "regions_desc": "Biz O‘zbekistonning eng mashhur manzillarida turlar tashkil qilamiz. Qaysi hudud bo‘lmasin — sizni u yerga olib boramiz.",
+        "cta_title": "Sayohatingizni bugunoq boshlang",
+        "cta_desc": "Qaerga borishni bilmayapsizmi? Hoziroq biz bilan bog‘laning — sizga mos noyob sayohat rejasini tuzib beramiz.",
+        "contact_button": "Bog‘lanish"
+    },
+        "contact": {
+            "title": "Biz bilan bog‘laning",
+            "description": "O‘zbekiston bo‘ylab unutilmas sayohatingizni rejalashtirishda sizga yordam berishga tayyormiz. Quyidagi shaklni to‘ldiring — tez orada siz bilan bog‘lanamiz.",
+            "form": {
+                "full_name": "To‘liq ism",
+                "country": "Qayerdansiz?",
+                "phone": "Telefon raqam",
+                "email": "Elektron pochta manzili",
+                "date": "Sayohat sanasi",
+                "message": "Xabar",
+                "message_placeholder": "Sayohat istaklaringiz haqida bizga yozing...",
+                "submit": "Xabarni yuborish"
+            },
+            "status": {
+                "success": "Xabaringiz muvaffaqiyatli yuborildi!",
+                "error": "Iltimos, barcha maydonlarni to‘ldiring."
+            },
+            "errorField": "Bu maydon to‘ldirilishi shart"
+        }
+}

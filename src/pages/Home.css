@@ -1,0 +1,185 @@
+:root {
+    --accent: #C19A6B;
+    --accent-dark: #A67B5B;
+    --text-light: #FFFFFF;
+    --bg-dark: #1E1E1E;
+    --radius: 8px;
+    --transition: 0.3s ease;
+    font-family: 'Georgia', serif;
+}
+
+.simple-hero {
+    position: relative;
+    min-height: 95vh;
+    background-color: var(--bg-dark);
+    overflow: hidden;
+    color: var(--text-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.title1 {
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+
+.bg-image {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.65);
+    transition: var(--transition);
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(30, 30, 30, 0.6), rgba(0, 0, 0, 0.2));
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.title {
+    font-size: clamp(2rem, 6vw, 3rem);
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.subtitle {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    color: #ddd;
+    max-width: 700px;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cta {
+    padding: 0.7rem 1.5rem;
+    border-radius: var(--radius);
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+    border: 1px solid transparent;
+}
+
+.cta.primary {
+    background: var(--accent);
+    color: #1e1e1e;
+}
+
+.cta.primary:hover {
+    background: var(--accent-dark);
+}
+
+.cta.secondary {
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    background: transparent;
+}
+
+.cta.secondary:hover {
+    background: var(--accent);
+    color: #1e1e1e;
+}
+
+/* Slider tugmalari */
+.slider-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+.slider-btn {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.slider-btn:hover {
+    background: var(--accent);
+    color: #1e1e1e;
+}
+
+.bg-image {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.65);
+    transition: var(--transition);
+    z-index: 0;
+}
+
+/* Mobil max 430px */
+@media (max-width: 430px) {
+    .simple-hero {
+        padding: 1rem;
+        min-height: 100vh;
+        /* Ekranni to'liq qoplaydi */
+    }
+
+    .bg-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        /* Har biri JS orqali keladi */
+        filter: brightness(0.8);
+    }
+
+    .overlay {
+        background: rgba(0, 0, 0, 0.2);
+        /* Orqa fon qorayishi juda engil */
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+        padding: 0 0.5rem;
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+
+    .slider-controls {
+        flex-direction: row;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .slider-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+}

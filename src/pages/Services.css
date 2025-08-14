@@ -1,0 +1,400 @@
+:root {
+    --bg: #ffffff;
+    --text: #222222;
+    --muted: #6b7280;
+    --accent: #F4A261;
+    --accent-dark: #e3a656;
+    --radius: 12px;
+    --transition: .25s cubic-bezier(.4, .2, .2, 1);
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.services-page {
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+/* Intro */
+.intro {
+    padding: 4rem 1rem 2rem;
+    text-align: center;
+}
+
+.title-ser {
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    font-weight: 700;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.lead {
+    font-size: 1.1rem;
+    max-width: 820px;
+    margin: 0 auto;
+    color: var(--muted);
+}
+
+/* Services grid */
+.services-grid {
+    padding: 3rem 1rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.75rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 1rem;
+}
+
+.service-card {
+    background: #f9f9f9;
+    border: 1px solid #e5e7eb;
+    border-radius: var(--radius);
+    padding: 1.5rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    position: relative;
+    overflow: hidden;
+    transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.service-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.08);
+}
+
+.icon {
+    font-size: 1.75rem;
+}
+
+.service-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.service-desc {
+    font-size: 0.95rem;
+    margin: 0;
+    color: #4a4a4a;
+    flex: 1;
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 4rem 1rem;
+    text-align: center;
+    background: #f5f7fa;
+    margin: 2rem 0;
+    border-radius: 12px;
+}
+
+.cta-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+}
+
+.cta-desc {
+    font-size: 1rem;
+    margin: 0 0 1rem;
+    color: var(--muted);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.85rem 1.75rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    background: var(--accent);
+    color: #222;
+    transition: var(--transition);
+    font-size: 0.95rem;
+}
+
+.btn:hover {
+    background: var(--accent-dark);
+    transform: translateY(-1px);
+}
+
+.btn:focus-visible {
+    outline: 3px solid #2B7A78;
+    outline-offset: 2px;
+}
+
+/* ===== Regions grid (cards) ===== */
+.regions-section {
+    padding: 40px 0;
+}
+
+.container-reg {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.regions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.region-card {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 14px;
+    overflow: hidden;
+    background: var(--card-bg, #fff);
+    box-shadow: var(--shadow, 0 4px 12px rgba(0, 0, 0, 0.06));
+    cursor: pointer;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.region-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+}
+
+.region-card__imgwrap {
+    width: 100%;
+    aspect-ratio: 16/10;
+    background: #f3f3f3;
+    overflow: hidden;
+}
+
+.region-card__imgwrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.region-card__body {
+    padding: 12px 14px 16px;
+}
+
+.region-card__title {
+    font-size: 1.05rem;
+    margin: 0 0 6px;
+}
+
+.region-card__snippet {
+    margin: 0;
+    opacity: .8;
+    font-size: .92rem;
+    line-height: 1.35;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* 2 qatorli snippet */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ===== Modal ===== */
+.region-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .5);
+    display: grid;
+    place-items: center;
+    padding: 16px;
+    z-index: 1000;
+}
+
+.region-modal__content {
+    width: 100%;
+    max-width: 640px;
+    background: var(--card-bg, #fff);
+    border-radius: 16px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, .18);
+    overflow: hidden;
+    position: relative;
+    animation: modalIn .18s ease both;
+}
+
+@keyframes modalIn {
+    from {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.region-modal__close {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 36px;
+    height: 36px;
+    border-radius: 999px;
+    border: none;
+    background: rgba(0, 0, 0, .06);
+    font-size: 22px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.region-modal__media {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background: #eee;
+    overflow: hidden;
+}
+
+.region-modal__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.region-modal__body {
+    padding: 16px 18px 6px;
+}
+
+.region-modal__title {
+    margin: 0 0 8px;
+    font-size: 1.25rem;
+}
+
+.region-modal__desc {
+    margin: 0 0 4px;
+    opacity: .9;
+    line-height: 1.45;
+}
+
+.region-modal__footer {
+    padding: 0 18px 18px;
+    display: flex;
+    gap: 10px;
+}
+
+/* ===== Buttons (inherit existing .btn.primary if you have it) ===== */
+.btn.primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+    border-radius: 12px;
+    background: var(--primary-color, #1f7aec);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* ===== Responsive ===== */
+
+/* ≤ 430px: mobil */
+@media (max-width: 430px) {
+    .regions-grid {
+        grid-template-columns: 1fr 1fr;
+        /* 2 ta ustun — ekranga chiroyli sig‘adi */
+        gap: 12px;
+    }
+
+    .region-card__title {
+        font-size: 1rem;
+    }
+
+    .region-card__snippet {
+        font-size: .88rem;
+    }
+
+    .region-modal {
+        padding: 8px;
+    }
+
+    .region-modal__content {
+        max-width: 96vw;
+        /* deyarli to‘liq ekran */
+        border-radius: 14px;
+    }
+
+    .region-modal__media {
+        aspect-ratio: 16/10;
+        /* biroz pastroq rasm — mobilga mos */
+    }
+}
+
+/* ≥ 992px: desktop */
+@media (min-width: 992px) {
+    .regions-grid {
+        gap: 20px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Hududlar bo‘limi */
+.regions-section {
+    padding: 3rem 1rem;
+    background: #fff;
+}
+
+.regions-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.region-badge {
+    background: #f0f4f8;
+    padding: 10px 16px;
+    border-radius: 999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #1f2d3a;
+    border: 1px solid rgba(43, 122, 120, 0.2);
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+@media (max-width: 430px) {
+    .region-badge {
+        font-size: 0.8rem;
+        padding: 8px 12px;
+    }
+
+    .title-ser {
+        font-size: 3rem;
+    }
+
+
+}
