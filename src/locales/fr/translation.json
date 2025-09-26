@@ -95,40 +95,113 @@
         "cta_desc": "Créons ensemble un voyage que vous n’oublierez jamais. Découvrez l’esprit ancien de l’Ouzbékistan avec nous.",
         "contact_button": "Nous contacter"
     },
-    "services": {
-        "title": "Nos services",
-        "lead": "Découvrez l’Ouzbékistan avec SamTour – des voyages confortables et inoubliables, adaptés à vous.",
-        "service_list": {
-            "private_tours": {
-                "title": "Tours privés",
-                "desc": "Voyages entièrement personnalisés – votre propre guide, groupes exclusifs, horaires flexibles."
-            },
-            "historical_journeys": {
-                "title": "Voyages historiques",
-                "desc": "Explorez les monuments éternels de l’Ouzbékistan tels que Registan, Shah-i-Zinda et l’observatoire d’Ulugbek."
-            },
-            "photo_tours": {
-                "title": "Tours photo",
-                "desc": "Capturez la beauté de l’Ouzbékistan avec des photographes professionnels – souvenirs garantis."
-            },
-            "custom_packages": {
-                "title": "Forfaits personnalisés",
-                "desc": "Itinéraires entièrement adaptés à votre temps, votre budget et vos intérêts."
-            },
-            "nationwide_travel": {
-                "title": "Voyages à l’échelle nationale",
-                "desc": "De Tachkent à Boukhara, de Khiva à la vallée de Ferghana – nous vous y conduirons."
-            },
-            "cultural_immersion": {
-                "title": "Immersion culturelle",
-                "desc": "Découvrez la culture ouzbèke à travers sa cuisine, ses traditions et son hospitalité."
-            }
+    "service": {
+        "intro": {
+            "title": "Nos Services",
+            "lead": "Nous rendons votre voyage agréable et confortable !"
         },
-        "regions_title": "Régions couvertes",
-        "regions_desc": "Nous proposons des tours dans toutes les grandes régions de l’Ouzbékistan. Où que ce soit – nous vous y emmènerons.",
-        "cta_title": "Commencez votre voyage maintenant",
-        "cta_desc": "Vous ne savez pas où aller ? Contactez-nous – nous créerons un itinéraire unique.",
-        "contact_button": "Nous contacter"
+        "section_title": "Pourquoi devriez-vous choisir nos services?",
+        "services": [
+            {
+                "title": "Services de Transport",
+                "desc": "Rendez votre trajet agréable grâce à des services de transport sûrs et pratiques."
+            },
+            {
+                "title": "Réservation d'Hôtel",
+                "desc": "Nous trouvons pour vous les meilleurs hôtels à des prix abordables."
+            },
+            {
+                "title": "Services de Guide",
+                "desc": "Nos guides expérimentés vous feront découvrir les sites historiques."
+            },
+            {
+                "title": "Restauration",
+                "desc": "Profitez d'un repas délicieux avec la cuisine nationale."
+            },
+            {
+                "title": "Voyages d'Entreprise",
+                "desc": "Services professionnels pour les équipes et événements spéciaux."
+            },
+            {
+                "title": "Visa et Documents",
+                "desc": "Nous vous aidons à obtenir rapidement et en toute sécurité vos documents de voyage."
+            },
+            {
+                "title": "Assurance Voyage",
+                "desc": "Profitez de votre voyage en toute tranquillité grâce à notre assurance."
+            },
+            {
+                "title": "Programmes Culturels",
+                "desc": "Nous offrons des opportunités pour assister à des concerts, théâtres et festivals."
+            }
+        ],
+        "regions_title": "Régions Historiques",
+        "regions": [
+            {
+                "id": "samarkand",
+                "title": "Samarkand",
+                "desc": "Ville ancienne située sur la Route de la Soie.",
+                "more": "Samarkand – ville antique sur la Route de la Soie.\nUlugh Beg (1394–1449) – grand astronome et mathématicien, a construit l'observatoire de Samarkand entre 1420 et 1428.\nGuri Amir – mausolée d'Amir Temur (1336–1405) et de sa famille, construit entre 1404 et 1405.\nComplexe Shohi Zinda – ensemble de mausolées du XIIIe au XVe siècle.\nMosquée Bibikhanum – construite entre 1404 et 1405 par l'épouse d'Amir Temur.\nSamarkand est un centre de science et de culture attirant de nombreux touristes grâce à ses monuments historiques."
+            },
+            {
+                "id": "bukhara",
+                "title": "Boukhara",
+                "desc": "Centre scientifique du monde islamique.",
+                "more": "Boukhara – centre scientifique du monde islamique.\nMinaret Kalyan – construit en 1127, symbole de Boukhara.\nCitadelle Ark – résidence des émirs de Boukhara, site historique.\nImam Boukhari (810–870) – grand savant de l'Hadith, né à Boukhara.\nDe nombreuses madrasas et institutions scientifiques contribuent au développement du savoir islamique."
+            },
+            {
+                "id": "khiva",
+                "title": "Khiva",
+                "desc": "Ville fortifiée ancienne.",
+                "more": "Khiva – ancienne ville fortifiée.\nItchan-Kala – complexe historique du XVe au XIXe siècle, célèbre pour ses remparts.\nAl-Khwarizmi (780–850) – fondateur de l'algèbre, né à Khiva.\nAbu Rayhan Biruni (973–1050) – expert en astronomie, mathématiques et sciences naturelles, a vécu à Khiva.\nKhiva est l'un des centres scientifiques anciens de l'Asie centrale."
+            },
+            {    
+                "id": "tashkent",
+                "title": "Tachkent",
+                "desc": "Capitale de l’Ouzbékistan, fusion de l’histoire et de la modernité.",
+                "more": "Tachkent – capitale de l’Ouzbékistan, fusion de l’histoire et de la modernité.\nComplexe Hazrati Imam – centre scientifique islamique, conservant des exemplaires du Coran.\nMarché Chorsu – centre commercial ancien, cœur de Tachkent.\nPlace de l’Indépendance – symbole de l’indépendance de l’Ouzbékistan.\nDe nombreux musées, théâtres et centres culturels sont ouverts aux touristes."
+            },
+            {
+                "id": "shahrisabz",
+                "title": "Chakhrisabz",
+                "desc": "Ville natale d’Amir Temur.",
+                "more": "Chakhrisabz – ville natale d’Amir Temur.\nComplexe d’Oqsaroy – palais d’été d’Amir Temur, construit entre 1380 et 1390.\nChakhrisabz était l’un des centres de l’empire de Temur.\nLes cinq fils de Temur : Jahangir, Umar Shaikh, Miran Shah, Shahrukh, Muhammad Sultan."
+            },
+            {
+                "id": "andijan",
+                "title": "Andijan",
+                "desc": "Porte est de la vallée de Ferghana.",
+                "more": "Andijan – porte est de la vallée de Ferghana.\nZahiriddin Muhammad Babur (1483–1530) – fondateur de la dynastie des Baburides, né à Andijan.\nSon œuvre 'Baburnama' relate sa vie et son époque.\nAndijan est une ville riche en patrimoine historique et culturel."
+            },
+            {
+                "id": "namangan",
+                "title": "Namangan",
+                "desc": "Beauté naturelle et patrimoine historique.",
+                "more": "Namangan – ville connue pour les monuments de l’époque du khanat de Kokand.\nDe nombreux sites historiques et centres culturels y sont présents, offrant des expériences intéressantes aux touristes."
+            },
+            {
+                "id": "fergana",
+                "title": "Ferghana",
+                "desc": "Porte est de l’Ouzbékistan.",
+                "more": "Ferghana – centre culturel de la vallée, liée à Khwarizmi et Biruni.\nDe nombreux monuments historiques et beautés naturelles attirent les touristes."
+            },
+            {
+                "id": "navoi",
+                "title": "Navoi",
+                "desc": "Centre industriel et culturel.",
+                "more": "Navoi – centre industriel et culturel.\nKarmana – ancienne ville, centre historique de la région.\nForteresse de Nurata – construite par Alexandre le Grand au IVe siècle avant J.-C.\nNavoi est nommé d’après le grand poète et homme d’État Alisher Navoi (1441–1501)."
+            },
+            {
+                "id": "nukus",
+                "title": "Nukus",
+                "desc": "Capitale du Karakalpakstan, célèbre pour le musée d’art Savitsky.",
+                "more": "Nukus – capitale du Karakalpakstan, célèbre pour le musée d’art Savitsky.\nLe musée possède une collection unique incluant les œuvres d’art soviétique et avant-gardiste.\nNukus est reconnu comme un centre d’art et de culture."
+            }
+        ],
+        "buttons": {
+            "more": "Plus",
+            "close": "Fermer"
+        }
     },
     "contact": {
         "title": "Nous contacter",

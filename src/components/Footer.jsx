@@ -36,16 +36,16 @@ export default function Footer() {
                 <div className="footer-section">
                     <h4 className="footer-title">{t("footer.connect")}</h4>
                     <div className="socials icons-only">
-                        <a href="https://instagram.com/adhamjon.tour.guide" className="social-icon" target="_blank" rel="noopener noreferrer">
+                        <a href="https://instagram.com/the_adhamjon" className="social-icon" target="_blank" rel="noopener noreferrer">
                             <BiLogoInstagramAlt />
                         </a>
                         <a href="https://www.facebook.com/adhamjon.sodiqov.2025/" className="social-icon" target="_blank" rel="noopener noreferrer">
                             <BiLogoFacebook />
                         </a>
-                        <a href="https://wa.me/998901012470" className="social-icon" target="_blank" rel="noopener noreferrer">
+                        <a href="https://wa.me/998917077291" className="social-icon" target="_blank" rel="noopener noreferrer">
                             <BiLogoWhatsapp />
                         </a>
-                        <a href="https://t.me/adhamjonsodiqov18" className="social-icon" target="_blank" rel="noopener noreferrer">
+                        <a href="https://t.me/the_adhamjon" className="social-icon" target="_blank" rel="noopener noreferrer">
                             <BiLogoTelegram />
                         </a>
                     </div>

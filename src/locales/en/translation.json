@@ -95,40 +95,113 @@
         "cta_desc": "We will design a trip you will remember for a lifetime. Discover the ancient soul of Uzbekistan with us.",
         "contact_button": "Contact Us"
     },
-    "services": {
-        "title": "Our Services",
-        "lead": "Travel through Uzbekistan with SamTour — comfortable, personalized, and unforgettable experiences await.",
-        "service_list": {
-            "private_tours": {
-                "title": "Private Tours",
-                "desc": "Exclusive trips designed to meet your needs. Private groups, personal guides, and complete flexibility."
-            },
-            "historical_journeys": {
-                "title": "Historical Journeys",
-                "desc": "Discover Uzbekistan’s timeless wonders — Registan, Shah-i-Zinda, Ulugh Beg Observatory, and more."
-            },
-            "photo_tours": {
-                "title": "Photography Tours",
-                "desc": "Capture Uzbekistan’s unique landscapes with a professional photographer. Memories guaranteed."
-            },
-            "custom_packages": {
-                "title": "Custom Packages",
-                "desc": "We design special routes based on your schedule, budget, and interests."
-            },
-            "nationwide_travel": {
-                "title": "Nationwide Travel",
-                "desc": "From Tashkent to Bukhara, Khiva to the Fergana Valley — we travel all over Uzbekistan."
-            },
-            "cultural_immersion": {
-                "title": "Cultural Immersion",
-                "desc": "Experience Uzbekistan’s rich culture through local cuisine, traditions, and hospitality."
-            }
+    "service": {
+        "intro": {
+            "title": "Our Services",
+            "lead": "Making your travel comfortable and enjoyable!"
         },
-        "regions_title": "Regions We Serve",
-        "regions_desc": "We operate tours in Uzbekistan’s most famous destinations. Wherever you want to go — we’re there.",
-        "cta_title": "Start Your Journey Now",
-        "cta_desc": "Not sure where to go? Contact us today — we’ll plan something special for you.",
-        "contact_button": "Contact Us"
+        "section_title": "Why should you choose our services?",
+        "services": [
+            {
+                "title": "Transport Services",
+                "desc": "Enjoy your journey with convenient and safe transport."
+            },
+            {
+                "title": "Hotel Booking",
+                "desc": "We find the best hotels for you at affordable prices."
+            },
+            {
+                "title": "Guide Services",
+                "desc": "Our professional guides introduce you to historical places."
+            },
+            {
+                "title": "Dining",
+                "desc": "Savor national dishes on rich tables."
+            },
+            {
+                "title": "Corporate Travel",
+                "desc": "Professional services for team and special events."
+            },
+            {
+                "title": "Visa & Documents",
+                "desc": "We help process travel documents quickly and reliably."
+            },
+            {
+                "title": "Insurance",
+                "desc": "We offer travel insurance for peace of mind."
+            },
+            {
+                "title": "Cultural Programs",
+                "desc": "Opportunities to attend concerts, theaters, and festivals."
+            }
+        ],
+        "regions_title": "Historical Regions",
+        "regions": [
+            {
+                "id": "samarkand",
+                "title": "Samarkand",
+                "desc": "Ancient city on the Great Silk Road.",
+                "more": "Ulugbek (1394–1449) – a great astronomer and mathematician, built Ulugbek Observatory in Samarkand between 1420–1428. Gur-i Amir Mausoleum – burial place of Amir Temur (1336–1405) and his family, built in 1404–1405. Shahi Zinda Complex – ensemble of mausoleums from the 13th–15th centuries. Bibi-Khanym Mosque – constructed in 1404–1405 by Amir Temur's wife. Samarkand is known for science and cultural centers, historical monuments attract tourists."
+            },
+            {
+                "id": "bukhara",
+                "title": "Bukhara",
+                "desc": "Center of Islamic science and knowledge.",
+                "more": "Kalon Minaret – built in 1127, a symbol of Bukhara. Ark Fortress – residence of Bukhara emirs, historical monument. Imam Bukhari (810–870) – great scholar of Hadith, born in Bukhara. Numerous madrasahs and scientific institutions contributed to Islamic science development."
+            },
+            {
+                "id": "khiva",
+                "title": "Khiva",
+                "desc": "Ancient fortress city.",
+                "more": "Ichan-Qala – historic complex of the 15th–19th centuries, famous for its walls. Al-Khwarizmi (780–850) – founder of algebra, born in Khiva. Abu Rayhan Beruni (973–1050) – expert in astronomy, mathematics and natural sciences, lived in Khiva. Khiva is one of Central Asia's ancient scientific centers."
+            },
+            {
+                "id": "tashkent",
+                "title": "Tashkent",
+                "desc": "Capital of Uzbekistan, blending history and modernity.",
+                "more": "Hazrati Imam Complex – center of Islamic science, houses Quran manuscripts. Chorsu Bazaar – ancient trading center, heart of Tashkent. Independence Square – symbol of Uzbekistan's independence. Many museums, theaters, and cultural centers are available for tourists."
+            },
+            {
+                "id": "shahrisabz",
+                "title": "Shahrisabz",
+                "desc": "Birthplace of Amir Temur.",
+                "more": "Oqsaroy Complex – summer residence of Amir Temur, built between 1380–1390. Shahrisabz was one of the centers of Amir Temur's empire. He had five sons: Jahangir, Umarshaykh, Miranshah, Shahrukh, and Muhammad Sultan."
+            },
+            {
+                "id": "andijan",
+                "title": "Andijan",
+                "desc": "Eastern gateway of the Fergana Valley.",
+                "more": "Zahiruddin Muhammad Babur (1483–1530) – founder of the Baburids, born in Andijan. His memoir 'Baburnama' provides detailed information about his life and era. Andijan is a city with rich historical and cultural heritage."
+            },
+            {
+                "id": "namangan",
+                "title": "Namangan",
+                "desc": "Beauty of nature and historical monuments.",
+                "more": "Namangan is famous for monuments from the Kokand Khanate era. The city contains numerous historical sites and cultural centers."
+            },
+            {
+                "id": "fergana",
+                "title": "Fergana",
+                "desc": "Eastern gateway of Uzbekistan.",
+                "more": "Fergana is known as a cultural center of the valley. Al-Khwarizmi and Beruni are connected to this region. The city is rich in historical monuments."
+            },
+            {
+                "id": "navoi",
+                "title": "Navoi",
+                "desc": "Center of industry and culture.",
+                "more": "Karmana – ancient city, historical center of Navoi region. Nurata Fortress – built by Alexander the Great, 4th century BC. Navoi is named after the great poet and statesman Alisher Navoi (1441–1501)."
+            },
+            {
+                "id": "nukus",
+                "title": "Nukus",
+                "desc": "Capital of Karakalpakstan, known for Savitsky Art Museum.",
+                "more": "Savitsky Museum – unique collection of Soviet and avant-garde art. Nukus is known as a center of art and culture."
+            }
+        ],
+        "buttons": {
+            "more": "More",
+            "close": "Close"
+        }
     },
     "contact": {
         "title": "Contact Us",

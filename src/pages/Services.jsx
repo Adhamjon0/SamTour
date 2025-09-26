@@ -1,235 +1,105 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import './Services.css';
-import { Link, useNavigate } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
-import { Helmet } from 'react-helmet';
+import React, { useState, useEffect } from "react";
+import "./Services.css";
+import { Helmet } from "react-helmet";
+import { useTranslation } from "react-i18next";
 
-const Services = () => {
+import sam_ser from "../photos/sam-ser.jpeg";
+import tosh_ser from "../photos/tosh-ser.jpg";
+import xv_ser from "../photos/xv-ser.jpg";
+import bux_ser from "../photos/bux_ser.webp";
+import shax_ser from "../photos/shax_ser.jpg";
+import anj_ser from "../photos/anj_ser.jpg";
+import nam_ser from "../photos/nam_ser.jpg";
+import far_ser from "../photos/far_ser.jpg";
+import nav_ser from "../photos/nav_ser.jpg";
+import nuk_ser from "../photos/nuk_ser.jpg";
+
+// Viloyatlar uchun rasm mapping (faqat ID ishlatiladi)
+const regionImages = {
+    samarkand: sam_ser,
+    bukhara: bux_ser,
+    khiva: xv_ser,
+    tashkent: tosh_ser,
+    shahrisabz: shax_ser,
+    andijan: anj_ser,
+    namangan: nam_ser,
+    fergana: far_ser,
+    navoi: nav_ser,
+    nukus: nuk_ser
+};
+
+const Service = () => {
     const { t } = useTranslation();
-    const navigate = useNavigate();
+    const [selectedRegion, setSelectedRegion] = useState(null);
+    const [showMore, setShowMore] = useState(false);
 
-    const servicesList = [
-        {
-            title: t('services.service_list.private_tours.title'),
-            description: t('services.service_list.private_tours.desc'),
-            icon: '🧭'
-        },
-        {
-            title: t('services.service_list.historical_journeys.title'),
-            description: t('services.service_list.historical_journeys.desc'),
-            icon: '🏛️'
-        },
-        {
-            title: t('services.service_list.photo_tours.title'),
-            description: t('services.service_list.photo_tours.desc'),
-            icon: '📸'
-        },
-        {
-            title: t('services.service_list.custom_packages.title'),
-            description: t('services.service_list.custom_packages.desc'),
-            icon: '🛠️'
-        },
-        {
-            title: t('services.service_list.nationwide_travel.title'),
-            description: t('services.service_list.nationwide_travel.desc'),
-            icon: '🌍'
-        },
-        {
-            title: t('services.service_list.cultural_immersion.title'),
-            description: t('services.service_list.cultural_immersion.desc'),
-            icon: '🎭'
-        }
-    ];
-
-    // ✅ 10 ta hudud: id + title + short_desc + img (public/images/regions/* joylashtiring)
-    const regions = useMemo(() => ([
-        {
-            id: 'samarkand',
-            title: t('about.samarkand.title'),
-            desc: t('about.samarkand.short_desc', 'Ipak yo‘li durdonasi, Registon maydoni bilan mashhur.'),
-            img: '/images/regions/samarkand.jpg'
-        },
-        {
-            id: 'bukhara',
-            title: t('about.bukhara.title'),
-            desc: t('about.bukhara.short_desc', 'Me’moriy yodgorliklari va tarixiy madrasalari bilan mashhur.'),
-            img: '/images/regions/bukhara.jpg'
-        },
-        {
-            id: 'khiva',
-            title: t('about.khiva.title'),
-            desc: t('about.khiva.short_desc', 'Ichan-Qal’a — ochiq osmon ostidagi muzey.'),
-            img: '/images/regions/khiva.jpg'
-        },
-        {
-            id: 'shahrisabz',
-            title: t('about.shahrisabz.title'),
-            desc: t('about.shahrisabz.short_desc', 'Amir Temur vatani, Oqsaroy xarobalari bilan mashhur.'),
-            img: '/images/regions/shahrisabz.jpg'
-        },
-        {
-            id: 'tashkent',
-            title: t('about.tashkent.title'),
-            desc: t('about.tashkent.short_desc', 'Zamonaviy poytaxt: metro, muzeylar, parklar.'),
-            img: '/images/regions/tashkent.jpg'
-        },
-        {
-            id: 'fargona',
-            title: 'Fargʻona',
-            desc: 'Goʻzal vodiy — bogʻlar, hunarmandchilik, tabiiy manzaralar.',
-            img: '/images/regions/fargona.jpg'
-        },
-        {
-            id: 'qoqon',
-            title: 'Qoʻqon',
-            desc: 'Tarixiy xonlik markazi, muhtasham saroy va madrasalar.',
-            img: '/images/regions/qoqon.jpg'
-        },
-        {
-            id: 'nukus',
-            title: 'Nukus',
-            desc: 'Qoraqalpogʻiston markazi, Savitskiy san’at muzeyi bilan mashhur.',
-            img: '/images/regions/nukus.jpg'
-        },
-        {
-            id: 'termiz',
-            title: 'Termiz',
-            desc: 'Janubiy shahar — qadimiy Buddaviy yodgorliklar makoni.',
-            img: '/images/regions/termiz.jpg'
-        },
-        {
-            id: 'qarshi',
-            title: 'Qarshi',
-            desc: 'Janubi-gʻarbiy shahar — tarix va zamonaviylik uygʻunligi.',
-            img: '/images/regions/qarshi.jpg'
-        }
-    ]), [t]);
-
-    // ✅ Modal holati
-    const [openId, setOpenId] = useState(null);
-    const selectedRegion = useMemo(
-        () => regions.find(r => r.id === openId) || null,
-        [openId, regions]
-    );
-
-    // ESC bilan yopish
+    // Esc bosilganda modalni yopish
     useEffect(() => {
-        const onKey = (e) => {
-            if (e.key === 'Escape') setOpenId(null);
-        };
-        document.addEventListener('keydown', onKey);
-        return () => document.removeEventListener('keydown', onKey);
+        const onKey = (e) => e.key === "Escape" && setSelectedRegion(null);
+        document.addEventListener("keydown", onKey);
+        return () => document.removeEventListener("keydown", onKey);
     }, []);
 
-    // Modal komponenti
-    const RegionModal = ({ region, onClose }) => {
-        if (!region) return null;
-
-        const handleOverlayClick = (e) => {
-            if (e.target.classList.contains('region-modal')) onClose();
-        };
-
-        return (
-            <div
-                className="region-modal"
-                role="dialog"
-                aria-modal="true"
-                aria-labelledby="region-modal-title"
-                onClick={handleOverlayClick}
-            >
-                <div className="region-modal__content">
-                    <button
-                        className="region-modal__close"
-                        onClick={onClose}
-                        aria-label={t('common.close') || 'Yopish'}
-                    >
-                        ×
-                    </button>
-
-                    <div className="region-modal__media">
-                        <img
-                            src={region.img}
-                            alt={region.title}
-                            loading="lazy"
-                            className="region-modal__img"
-                        />
-                    </div>
-
-                    <div className="region-modal__body">
-                        <h3 id="region-modal-title" className="region-modal__title">
-                            {region.title}
-                        </h3>
-                        <p className="region-modal__desc">{region.desc}</p>
-                    </div>
-
-                    <div className="region-modal__footer">
-                        <Link
-                            to={`/region/${region.id}`}
-                            className="btn primary"
-                            onClick={() => setOpenId(null)}
-                        >
-                            {t('common.read_more') || 'Batafsil'}
-                        </Link>
-                    </div>
-                </div>
-            </div>
-        );
-    };
+    const services = t("service.services", { returnObjects: true });
+    const regions = t("service.regions", { returnObjects: true });
 
     return (
-        <main className="services-page">
+        <main className="service-page">
             <Helmet>
-                <title>SamTour — Our Services</title>
+                <title>{t("service.intro.title")}</title>
                 <meta
                     name="description"
-                    content="Explore our tailored travel services in Uzbekistan — from historical journeys to cultural experiences."
+                    content={t("service.intro.description")}
                 />
             </Helmet>
 
             {/* Intro */}
-            <section className="intro">
-                <div className="container">
-                    <h1 className="title-ser">{t('services.title')}</h1>
-                    <p className="lead">{t('services.lead')}</p>
+            <section className="service-intro">
+                <div className="service-container">
+                    <h1 className="service-title">{t("service.intro.title")}</h1>
+                    <p className="service-lead">{t("service.intro.lead")}</p>
                 </div>
             </section>
 
-            {/* Services List */}
-            <section className="services-grid">
-                <div className="container">
-                    <div className="grid">
-                        {servicesList.map((s) => (
-                            <div className="service-card" key={s.title}>
-                                <div className="icon">{s.icon}</div>
-                                <h3 className="service-title">{s.title}</h3>
-                                <p className="service-desc">{s.description}</p>
-                            </div>
+            {/* Services */}
+            <section className="services">
+                <div className="service-container">
+                    <h2 className="section-title">{t("service.section_title")}</h2>
+                    <div className="service-cards">
+                        {services.map((s, idx) => (
+                            <article key={idx} className="service-card">
+                                <h3 className="service-card__title">{s.title}</h3>
+                                <p className="service-card__desc">{s.desc}</p>
+                            </article>
                         ))}
                     </div>
                 </div>
             </section>
 
             {/* Regions */}
-            <section className="regions-section">
-                <div className="container-reg">
-                    <h2 className="section-title">{t('services.regions_title')}</h2>
-                    <p className="section-desc">{t('services.regions_desc')}</p>
-
-                    <div className="regions-grid">
-                        {regions.map((r) => (
+            <section className="regions">
+                <div className="service-container">
+                    <h2 className="section-title">{t("service.regions_title")}</h2>
+                    <div className="region-grid">
+                        {regions.map((r, idx) => (
                             <button
-                                key={r.id}
+                                key={idx}
                                 className="region-card"
-                                onClick={() => setOpenId(r.id)}
+                                onClick={() => {
+                                    setSelectedRegion({ ...r, img: regionImages[r.id] });
+                                    setShowMore(false);
+                                }}
                                 aria-haspopup="dialog"
                                 aria-controls="region-modal"
                             >
-                                <div className="region-card__imgwrap">
-                                    <img src={r.img} alt={r.title} loading="lazy" />
+                                <div className="region-thumb">
+                                    {regionImages[r.id] && (
+                                        <img src={regionImages[r.id]} alt={r.title} />
+                                    )}
                                 </div>
-                                <div className="region-card__body">
-                                    <h3 className="region-card__title">{r.title}</h3>
-                                    <p className="region-card__snippet">{r.desc}</p>
+                                <div className="region-meta">
+                                    <h3 className="region-title">{r.title}</h3>
+                                    <p className="region-desc">{r.desc}</p>
                                 </div>
                             </button>
                         ))}
@@ -237,21 +107,61 @@ const Services = () => {
                 </div>
             </section>
 
-            {/* Call to Action */}
-            <section className="cta-section">
-                <div className="containe">
-                    <h2 className="cta-title">{t('services.cta_title')}</h2>
-                    <p className="cta-desc">{t('services.cta_desc')}</p>
-                    <Link to="/contact" className="btn primary" aria-label="Contact">
-                        {t('services.contact_button')}
-                    </Link>
-                </div>
-            </section>
-
             {/* Modal */}
-            <RegionModal region={selectedRegion} onClose={() => setOpenId(null)} />
+            {selectedRegion && (
+                <div
+                    className="modal-overlay"
+                    role="dialog"
+                    aria-modal="true"
+                    aria-labelledby="region-modal-title"
+                    onClick={() => setSelectedRegion(null)}
+                >
+                    <div
+                        className="modal fullscreen"
+                        onClick={(e) => e.stopPropagation()}
+                        style={{
+                            backgroundImage: selectedRegion.img
+                                ? `linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.8)), url(${selectedRegion.img})`
+                                : "linear-gradient(180deg, #1b1b1b, #000)"
+                        }}
+                    >
+                        <button
+                            className="modal-close"
+                            onClick={() => setSelectedRegion(null)}
+                            aria-label={t("service.buttons.close")}
+                        >
+                            ✕
+                        </button>
+
+                        <div className="modal-content">
+                            <h2 id="region-modal-title" className="modal-title">
+                                {selectedRegion.title}
+                            </h2>
+                            <p className="modal-sub">{selectedRegion.desc}</p>
+
+                            {showMore && <p className="modal-more">{selectedRegion.more}</p>}
+
+                            {!showMore && (
+                                <button
+                                    className="btn modal-btn"
+                                    onClick={() => setShowMore(true)}
+                                >
+                                    {t("service.buttons.more")}
+                                </button>
+                            )}
+
+                            <button
+                                className="btn modal-btn outline"
+                                onClick={() => setSelectedRegion(null)}
+                            >
+                                {t("service.buttons.close")}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
         </main>
     );
 };
 
-export default Services;
+            export default Service;

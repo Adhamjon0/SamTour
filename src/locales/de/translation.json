@@ -95,40 +95,113 @@
         "cta_desc": "Lass uns gemeinsam eine Reise schaffen, die du nie vergessen wirst. Entdecke den antiken Geist Usbekistans mit uns.",
         "contact_button": "Kontakt aufnehmen"
     },
-    "services": {
-        "title": "Unsere Dienstleistungen",
-        "lead": "Entdecke Usbekistan mit SamTour – komfortable und unvergessliche Reisen, die auf dich zugeschnitten sind.",
-        "service_list": {
-            "private_tours": {
-                "title": "Private Touren",
-                "desc": "Vollständig personalisierte Reisen – dein eigener Guide, exklusive Gruppen, flexibler Zeitplan."
-            },
-            "historical_journeys": {
-                "title": "Historische Reisen",
-                "desc": "Erkunde Usbekistans ewige Wahrzeichen wie Registan, Shah-i-Zinda und das Ulugbek-Observatorium."
-            },
-            "photo_tours": {
-                "title": "Fototouren",
-                "desc": "Nimm die Schönheit Usbekistans mit professionellen Fotografen auf – unvergessliche Erinnerungen garantiert."
-            },
-            "custom_packages": {
-                "title": "Individuelle Pakete",
-                "desc": "Komplett maßgeschneiderte Routen basierend auf deiner Zeit, deinem Budget und deinen Interessen."
-            },
-            "nationwide_travel": {
-                "title": "Landesweite Reisen",
-                "desc": "Von Taschkent nach Buchara, von Chiwa bis ins Ferganatal – wir bringen dich überall hin."
-            },
-            "cultural_immersion": {
-                "title": "Kulturelles Eintauchen",
-                "desc": "Erlebe usbekische Kultur durch Küche, Traditionen und Gastfreundschaft."
-            }
+    "service": {
+        "intro": {
+            "title": "Unsere Dienstleistungen",
+            "lead": "Wir machen Ihre Reise komfortabel und angenehm!"
         },
-        "regions_title": "Regionen, die wir abdecken",
-        "regions_desc": "Wir bieten Touren in allen wichtigen Regionen Usbekistans an. Egal wohin – wir begleiten dich.",
-        "cta_title": "Beginne deine Reise jetzt",
-        "cta_desc": "Nicht sicher, wohin? Kontaktiere uns – wir erstellen einen einzigartigen Reiseplan.",
-        "contact_button": "Kontakt aufnehmen"
+        "section_title": "Warum sollten Sie unsere Dienstleistungen wählen?",
+        "services": [
+            {
+                "title": "Transportdienste",
+                "desc": "Genießen Sie Ihre Reise mit bequemen und sicheren Transportmöglichkeiten."
+            },
+            {
+                "title": "Hotelbuchung",
+                "desc": "Wir finden die besten Hotels für Sie zu erschwinglichen Preisen."
+            },
+            {
+                "title": "Reiseführer-Dienste",
+                "desc": "Unsere professionellen Reiseführer zeigen Ihnen historische Orte."
+            },
+            {
+                "title": "Verpflegung",
+                "desc": "Genießen Sie nationale Gerichte auf reich gedeckten Tischen."
+            },
+            {
+                "title": "Firmenreisen",
+                "desc": "Professionelle Dienstleistungen für Team- und Spezialveranstaltungen."
+            },
+            {
+                "title": "Visa & Dokumente",
+                "desc": "Wir helfen Ihnen, Reisedokumente schnell und zuverlässig zu bearbeiten."
+            },
+            {
+                "title": "Versicherung",
+                "desc": "Wir bieten Reiseversicherungen für Ihre Sicherheit an."
+            },
+            {
+                "title": "Kulturelle Programme",
+                "desc": "Möglichkeiten, Konzerte, Theater und Festivals zu besuchen."
+            }
+        ],
+        "regions_title": "Historische Regionen",
+        "regions": [
+            {
+                "id": "samarkand",
+                "title": "Samarkand",
+                "desc": "Antike Stadt an der Großen Seidenstraße.",
+                "more": "Ulugbek (1394–1449) – großer Astronom und Mathematiker, baute 1420–1428 das Ulugbek-Observatorium in Samarkand. Gur-i Amir Mausoleum – Grabstätte von Amir Temur (1336–1405) und seiner Familie, gebaut 1404–1405. Shahi Zinda Komplex – Ensemble von Mausoleen aus dem 13.–15. Jahrhundert. Bibi-Khanym Moschee – 1404–1405 von Amir Temurs Ehefrau erbaut. Samarkand ist bekannt für Wissenschafts- und Kulturzentren; historische Denkmäler ziehen Touristen an."
+            },
+            {
+                "id": "bukhara",
+                "title": "Buchara",
+                "desc": "Zentrum islamischer Wissenschaft und Bildung.",
+                "more": "Kalon-Minarett – gebaut 1127, Symbol von Buchara. Ark-Festung – Residenz der Buchara-Emire, historisches Denkmal. Imam Bukhari (810–870) – großer Hadith-Gelehrter, in Buchara geboren. Zahlreiche Madrassas und wissenschaftliche Institutionen haben zur Entwicklung der islamischen Wissenschaft beigetragen."
+            },
+            {
+                "id": "khiva",
+                "title": "Chiwa",
+                "desc": "Antike Festungsstadt.",
+                "more": "Ichan-Qala – historischer Komplex des 15.–19. Jahrhunderts, berühmt für seine Mauern. Al-Chwarizmi (780–850) – Begründer der Algebra, in Chiwa geboren. Abu Rayhan Biruni (973–1050) – Experte in Astronomie, Mathematik und Naturwissenschaften, lebte in Chiwa. Chiwa ist eines der alten wissenschaftlichen Zentren Zentralasiens."
+            },
+            {
+                "id": "tashkent",
+                "title": "Taschkent",
+                "desc": "Hauptstadt Usbekistans, Mischung aus Geschichte und Moderne.",
+                "more": "Hazrati Imam Komplex – Zentrum der islamischen Wissenschaft, beherbergt Koranmanuskripte. Chorsu-Basar – alter Handelsplatz, Herz von Taschkent. Unabhängigkeitsplatz – Symbol der Unabhängigkeit Usbekistans. Viele Museen, Theater und Kulturzentren stehen Touristen offen."
+            },
+            {
+                "id": "shahrisabz",
+                "title": "Shahrisabz",
+                "desc": "Geburtsstadt von Amir Temur.",
+                "more": "Oqsaroy-Komplex – Sommerresidenz von Amir Temur, gebaut 1380–1390. Shahrisabz war eines der Zentren des Amir-Temur-Reiches. Er hatte fünf Söhne: Jahangir, Umarshaykh, Miranshah, Shahrukh und Muhammad Sultan."
+            },
+            {
+                "id": "andijan",
+                "title": "Andijan",
+                "desc": "Östliches Tor des Fergana-Tals.",
+                "more": "Zahiruddin Muhammad Babur (1483–1530) – Gründer der Baburiden-Dynastie, in Andijan geboren. Sein Werk 'Baburnama' liefert detaillierte Informationen über sein Leben und seine Epoche. Andijan ist eine Stadt mit reichem historischem und kulturellem Erbe."
+            },
+            {
+                "id": "namangan",
+                "title": "Namangan",
+                "desc": "Schönheit der Natur und historische Denkmäler.",
+                "more": "Namangan ist bekannt für Denkmäler aus der Zeit des Kokand-Khanats. Die Stadt bietet zahlreiche historische Stätten und kulturelle Zentren."
+            },
+            {
+                "id": "fergana",
+                "title": "Fergana",
+                "desc": "Östliches Tor Usbekistans.",
+                "more": "Fergana ist bekannt als kulturelles Zentrum des Tals. Al-Chwarizmi und Biruni sind mit dieser Region verbunden. Die Stadt hat viele historische Denkmäler."
+            },
+            {
+                "id": "navoi",
+                "title": "Nawoi",
+                "desc": "Zentrum von Industrie und Kultur.",
+                "more": "Karmana – antike Stadt, historisches Zentrum der Region Nawoi. Nurata-Festung – von Alexander dem Großen erbaut, 4. Jh. v. Chr. Nawoi ist nach dem großen Dichter und Staatsmann Alisher Nawoi (1441–1501) benannt."
+            },
+            {
+                "id": "nukus",
+                "title": "Nukus",
+                "desc": "Hauptstadt von Karakalpakstan, bekannt für das Savitsky-Museum.",
+                "more": "Savitsky-Museum – einzigartige Sammlung sowjetischer und avantgardistischer Kunst. Nukus ist als Zentrum von Kunst und Kultur bekannt."
+            }
+        ],
+        "buttons": {
+            "more": "Mehr",
+            "close": "Schließen"
+        }
     },
     "contact": {
         "title": "Kontakt aufnehmen",

@@ -95,58 +95,131 @@
         "cta_desc": "Siz bilan birga umr bo‘yi esda qoladigan sayohatni yaratamiz. O‘zbekistonning qadimiy ruhini biz bilan kashf eting.",
         "contact_button": "Biz bilan bog‘laning"
     },
-    "services": {
-        "title": "Xizmatlarimiz",
-        "lead": "SamTour bilan O‘zbekistonni kashf eting — qulay, shaxsiylashtirilgan va unutilmas sayohatlar aynan siz uchun.",
-        "service_list": {
-            "private_tours": {
-                "title": "Shaxsiy turlar",
-                "desc": "Sizning istaklaringiz asosida moslashtirilgan yakka tartibdagi sayohatlar. Maxsus guruhlar, shaxsiy gid, to‘liq moslashuvchanlik."
+    "service": {
+        "intro": {
+            "title": "Bizning Xizmatlarimiz",
+            "lead": "Sayohatingizni maroqli va qulay qilamiz!"
+        },
+        "section_title": "Nima uchun bizning xizmatlarimizni tanlash kerak?",
+        "services": [
+            {
+                "title": "Transport Xizmatlari",
+                "desc": "Qulay va xavfsiz transport xizmatlari orqali yo‘lingizni maroqli qiling."
             },
-            "historical_journeys": {
-                "title": "Tarixiy sayohatlar",
-                "desc": "O‘zbekistonning abadiy mo‘jizalarini o‘rganing — Registon, Shohi Zinda, Ulug‘bek rasadxonasi va boshqalar."
+            {
+                "title": "Mehmonxona Bronlari",
+                "desc": "Siz uchun eng yaxshi mehmonxonalarni qulay narxlarda topib beramiz."
             },
-            "photo_tours": {
-                "title": "Foto sayohatlar",
-                "desc": "Professional fotograf bilan yo‘lga chiqing va O‘zbekistonning betakror manzaralarini tasvirga oling. Unutilmas xotiralar kafolatlangan."
+            {
+                "title": "Gid Xizmatlari",
+                "desc": "Malakali gidlarimiz sizni tarixiy joylar bilan tanishtiradi."
             },
-            "custom_packages": {
-                "title": "Maxsus paketlar",
-                "desc": "Vaqtingiz, byudjetingiz va qiziqishlaringiz asosida o‘zingizga mos marshrut tuzing. To‘liq shaxsiylashtirilgan tajriba."
+            {
+                "title": "Ovqatlanish",
+                "desc": "Milliy taomlar bilan boy dasturxonlarda maroqli taomlaning."
             },
-            "nationwide_travel": {
-                "title": "Butun mamlakat bo‘ylab sayohat",
-                "desc": "Toshkentdan Buxorogacha, Xivadan Farg‘onagacha — O‘zbekistonning har bir go‘shasini biz bilan kashf eting."
+            {
+                "title": "Korporativ Sayohatlar",
+                "desc": "Jamoaviy va maxsus tadbirlar uchun professional xizmatlar."
             },
-            "cultural_immersion": {
-                "title": "Madaniy muhitga sho‘ng‘ish",
-                "desc": "O‘zbekistonning boy madaniyatini mahalliy taomlar, an’analar va mehmondo‘stlik orqali his eting."
+            {
+                "title": "Viza va Hujjatlar",
+                "desc": "Sayohat hujjatlarini tez va ishonchli rasmiylashtirishda yordam beramiz."
+            },
+            {
+                "title": "Sug‘urta Xizmati",
+                "desc": "Safaringiz davomida xotirjam bo‘lishingiz uchun sayohat sug‘urtasi taklif qilamiz."
+            },
+            {
+                "title": "Madaniy Dasturlar",
+                "desc": "Konsertlar, teatrlar va festival tadbirlariga tashrif buyurishingiz uchun imkoniyatlar yaratamiz."
+            }
+        ],
+        "regions_title": "Tarixiy hududlar",
+        "regions": [
+            {
+                "id": "samarkand",
+                "title": "Samarqand",
+                "desc": "Buyuk Ipak yo‘lida joylashgan qadimiy shahar.",
+                "more": "Ulug‘bek (1394–1449) – buyuk astronom va matematik, Samarqandda Ulug‘bek rasadxonasini 1420–1428 yillarda barpo etgan. Go‘ri Amir maqbarasi – Amir Temur (1336–1405) va uning oilasi dafn etilgan, 1404–1405 yillarda qurilgan. Shohi Zinda majmuasi – XIII–XV asrlarga oid maqbaralar majmuasi. Bibixonim masjidi – 1404–1405 yillarda qurilgan, Amir Temurning rafiqasi Bibixonim tomonidan bunyod etilgan. Samarqandda ilm-fan va madaniyat markazlari mavjud bo‘lib, tarixiy obidalar va yodgorliklar sayyohlarni jalb etadi."
+            },
+            {
+                "id": "bukhara",
+                "title": "Buxoro",
+                "desc": "Islom olamining ilm-fan markazi.",
+                "more": "Minorai Kalon – 1127 yilda qurilgan, Buxoroning ramzi. Ark qal’asi – Buxoro amirlarining qarorgohi, tarixiy yodgorlik. Imom Buxoriy (810–870) – hadis ilmining buyuk olimi. Buxoroda ko‘plab madrasalar va ilmiy muassasalar mavjud bo‘lib, Islom ilm-fanining rivojiga katta hissa qo‘shgan."
+            },
+            {
+                "id": "khiva",
+                "title": "Xiva",
+                "desc": "Qadimiy qal’a shahri.",
+                "more": "Ichan-Qal’a – XV–XIX asrlarga oid tarixiy majmua, devorlari bilan mashhur. Al-Xorazmiy (780–850) – algebra asoschisi, Xivada tug‘ilgan. Abu Rayhan Beruniy (973–1050) – astronomiya, matematika va tabiiy fanlar bo‘yicha mutaxassis, Xivada yashagan. Xiva – Markaziy Osiyoning qadimiy ilm-fan markazlaridan biri."
+            },
+            {
+                "id": "tashkent",
+                "title": "Toshkent",
+                "desc": "O‘zbekiston poytaxti, tarix va zamonaviylik uyg‘uni.",
+                "more": "Hazrati Imom majmuasi – Islom ilm-fanining markazi, Qur’on nusxalari saqlanadi. Chorsu bozori – qadimiy savdo markazi, Toshkentning yuragi. Mustaqillik maydoni – O‘zbekiston mustaqilligining ramzi. Toshkentda ko‘plab muzeylar, teatrlari va madaniy markazlar mavjud."
+            },
+            {
+                "id": "shahrisabz",
+                "title": "Shahrisabz",
+                "desc": "Amir Temurning tug‘ilgan shahri.",
+                "more": "Oqsaroy majmuasi – Amir Temurning yozgi qarorgohi, 1380–1390 yillarda qurilgan. Shahrisabz – Amir Temur saltanatining markazlaridan biri bo‘lgan. U besh farzand – Jahangir, Umarshayx, Miran Shah, Shahrukh va Muhammad Sultanni tarbiyalagan."
+            },
+            {
+                "id": "andijan",
+                "title": "Andijon",
+                "desc": "Farg‘ona vodiysining sharqiy darvozasi.",
+                "more": "Zahiriddin Muhammad Bobur (1483–1530) – Boburiylar sulolasining asoschisi, Andijonda tug‘ilgan. Boburning \"Boburnoma\" asari orqali uning hayoti va davri haqida ma’lumotlar mavjud. Andijon – tarixiy va madaniy merosga boy shahar."
+            },
+            {
+                "id": "namangan",
+                "title": "Namangan",
+                "desc": "Go‘zal tabiat va tarixiy yodgorliklar uyg‘uni.",
+                "more": "Qo‘qon xonligi davriga oid yodgorliklar mashhur. Namanganda ko‘plab tarixiy obidalar va madaniy markazlar mavjud."
+            },
+            {
+                "id": "fergana",
+                "title": "Farg‘ona",
+                "desc": "O‘zbekistonning sharqiy darvozasi.",
+                "more": "Farg‘ona vodiysining madaniy markazi sifatida tanilgan. Al-Xorazmiy va Beruniy kabi olimlar bu hudud bilan bog‘liq. Shahar tarixiy obidalarga boy."
+            },
+            {
+                "id": "navoi",
+                "title": "Navoiy",
+                "desc": "Sanoat va madaniyat markazi.",
+                "more": "Karmana – qadimiy shahar, Navoiy viloyatining tarixiy markazi. Nurata qal’asi – Aleksandr Makedonskiy tomonidan qurilgan, milodiy IV asrga oid. Navoiy – Alisher Navoiy (1441–1501) nomi bilan atalgan, buyuk shoir va davlat arbobi."
+            },
+            {
+                "id": "nukus",
+                "title": "Nukus",
+                "desc": "Qoraqalpog‘iston markazi; Savitskiy san’at muzeyi bilan mashhur.",
+                "more": "Savitskiy muzeyi – dunyoda noyob bo‘lgan kolleksiyaga ega, sovet va avantgarda san’atining eng nodir namunalari. Nukus – san’at va madaniyat markazi sifatida tanilgan."
+            }
+        ],
+            "buttons": {
+                "more": "Ko‘proq",
+                "close": "Yopish"
             }
         },
-        "regions_title": "Qamrab olingan hududlar",
-        "regions_desc": "Biz O‘zbekistonning eng mashhur manzillarida turlar tashkil qilamiz. Qaysi hudud bo‘lmasin — sizni u yerga olib boramiz.",
-        "cta_title": "Sayohatingizni bugunoq boshlang",
-        "cta_desc": "Qaerga borishni bilmayapsizmi? Hoziroq biz bilan bog‘laning — sizga mos noyob sayohat rejasini tuzib beramiz.",
-        "contact_button": "Bog‘lanish"
-    },
-        "contact": {
-            "title": "Biz bilan bog‘laning",
-            "description": "O‘zbekiston bo‘ylab unutilmas sayohatingizni rejalashtirishda sizga yordam berishga tayyormiz. Quyidagi shaklni to‘ldiring — tez orada siz bilan bog‘lanamiz.",
-            "form": {
-                "full_name": "To‘liq ism",
-                "country": "Qayerdansiz?",
-                "phone": "Telefon raqam",
-                "email": "Elektron pochta manzili",
-                "date": "Sayohat sanasi",
-                "message": "Xabar",
-                "message_placeholder": "Sayohat istaklaringiz haqida bizga yozing...",
-                "submit": "Xabarni yuborish"
-            },
-            "status": {
-                "success": "Xabaringiz muvaffaqiyatli yuborildi!",
-                "error": "Iltimos, barcha maydonlarni to‘ldiring."
-            },
-            "errorField": "Bu maydon to‘ldirilishi shart"
-        }
+    "contact": {
+        "title": "Biz bilan bog‘laning",
+        "description": "O‘zbekiston bo‘ylab unutilmas sayohatingizni rejalashtirishda sizga yordam berishga tayyormiz. Quyidagi shaklni to‘ldiring — tez orada siz bilan bog‘lanamiz.",
+        "form": {
+            "full_name": "To‘liq ism",
+            "country": "Qayerdansiz?",
+            "phone": "Telefon raqam",
+            "email": "Elektron pochta manzili",
+            "date": "Sayohat sanasi",
+            "message": "Xabar",
+            "message_placeholder": "Sayohat istaklaringiz haqida bizga yozing...",
+            "submit": "Xabarni yuborish"
+        },
+        "status": {
+            "success": "Xabaringiz muvaffaqiyatli yuborildi!",
+            "error": "Iltimos, barcha maydonlarni to‘ldiring."
+        },
+        "errorField": "Bu maydon to‘ldirilishi shart"
+    }
 }
