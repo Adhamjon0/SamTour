@@ -3,6 +3,8 @@ import './Contact.css';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet';
 
+const TELEGRAM_BOT_TOKEN = "8412702421:AAGLCClgQnB69xfsmg8ScusCAtsMhXjgkzg";
+const CHAT_ID = "8419894563"; // bu yerga o'zingizning Telegram ID yozasiz
 
 const Contact = () => {
     const { t } = useTranslation();
@@ -21,17 +23,16 @@ const Contact = () => {
 
     const handleChange = (e) => {
         setForm({ ...form, [e.target.name]: e.target.value });
-        setErrors({ ...errors, [e.target.name]: '' }); // yozilganda errorni olib tashlash
+        setErrors({ ...errors, [e.target.name]: '' });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         let newErrors = {};
 
-        // bo'sh maydonlarni tekshirish
         Object.entries(form).forEach(([key, value]) => {
             if (!value.trim()) {
-                newErrors[key] = t('contact.form.errorField'); // tarjima
+                newErrors[key] = t('contact.form.errorField');
             }
         });
 
@@ -41,17 +42,45 @@ const Contact = () => {
             return;
         }
 
-        // hammasi to‘g‘ri bo‘lsa
-        setStatus({ type: 'success', msg: t('contact.form.success') });
-        setForm({
-            fullName: '',
-            country: '',
-            phone: '',
-            email: '',
-            date: '',
-            message: ''
-        });
-        setErrors({});
+        // 📨 Botga yuboriladigan formatlangan xabar
+        const messageText = `
+<b>📝 Yangi kontakt formasi:</b>\n
+👤 <b>Ism:</b> ${form.fullName}
+🌍 <b>Davlat:</b> ${form.country}
+📞 <b>Telefon:</b> ${form.phone}
+📧 <b>Email:</b> ${form.email}
+📅 <b>Sana:</b> ${form.date}
+💬 <b>Xabar:</b> ${form.message}
+        `;
+
+        try {
+            const response = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    chat_id: CHAT_ID,
+                    text: messageText,
+                    parse_mode: "HTML" // HTML formatda yuborish
+                })
+            });
+
+            if (response.ok) {
+                setStatus({ type: 'success', msg: t('contact.form.success') });
+                setForm({
+                    fullName: '',
+                    country: '',
+                    phone: '',
+                    email: '',
+                    date: '',
+                    message: ''
+                });
+            } else {
+                throw new Error("Telegram API xatosi");
+            }
+        } catch (error) {
+            console.error("Telegram error:", error);
+            setStatus({ type: 'error', msg: "❌ Xatolik yuz berdi, qayta urinib ko‘ring." });
+        }
     };
 
     return (
@@ -84,7 +113,6 @@ const Contact = () => {
                     />
                     {errors.fullName && <span className="error-text">{errors.fullName}</span>}
                 </label>
-
 
                 <label>
                     {t('contact.form.country')}

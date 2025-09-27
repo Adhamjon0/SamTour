@@ -203,6 +203,9 @@
             "close": "Schließen"
         }
     },
+    "gallery": {
+        "title": "Galerie"
+    },
     "contact": {
         "title": "Kontakt aufnehmen",
         "description": "Lass uns deine unvergessliche Reise nach Usbekistan planen. Fülle das Formular aus, und wir melden uns bald bei dir.",

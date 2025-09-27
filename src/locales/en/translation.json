@@ -203,6 +203,9 @@
             "close": "Close"
         }
     },
+    "gallery": {
+        "title": "Gallery"
+    },
     "contact": {
         "title": "Contact Us",
         "description": "Let us help you plan an unforgettable trip to Uzbekistan. Fill out the form below and we’ll get back to you as soon as possible.",

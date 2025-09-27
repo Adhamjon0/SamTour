@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Galery.css';
 import { Helmet } from 'react-helmet';
-
+import { useTranslation } from 'react-i18next'; // 🔥 Shu import kerak
 
 import bibixonim from '../photos/bibixonim.jpg';
 import buxoroArk from '../photos/buxoroArk.jpg';
@@ -39,6 +39,7 @@ const images = [
 
 const Gallery = () => {
     const [selectedImage, setSelectedImage] = useState(null);
+    const { t } = useTranslation(); // 🔥 t funksiyasini chaqirdik
 
     const openModal = (image) => setSelectedImage(image);
     const closeModal = () => setSelectedImage(null);
@@ -52,7 +53,10 @@ const Gallery = () => {
                     content="Browse our gallery of stunning Uzbekistan destinations and unforgettable travel moments."
                 />
             </Helmet>
-            <h2 className="gallery-title">Historical Destinations</h2>
+
+            {/* Tarjima qilinadigan sarlavha */}
+            <h2 className="gallery-title">{t("gallery.title")}</h2>
+
             <div className="gallery-grid">
                 {images.map((place) => (
                     <div

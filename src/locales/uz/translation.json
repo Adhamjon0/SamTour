@@ -198,11 +198,15 @@
                 "more": "Savitskiy muzeyi – dunyoda noyob bo‘lgan kolleksiyaga ega, sovet va avantgarda san’atining eng nodir namunalari. Nukus – san’at va madaniyat markazi sifatida tanilgan."
             }
         ],
-            "buttons": {
-                "more": "Ko‘proq",
-                "close": "Yopish"
-            }
-        },
+        "buttons": {
+            "more": "Ko‘proq",
+            "close": "Yopish"
+        }
+    },
+    
+    "gallery": {
+        "title": "Galereya"
+    },
     "contact": {
         "title": "Biz bilan bog‘laning",
         "description": "O‘zbekiston bo‘ylab unutilmas sayohatingizni rejalashtirishda sizga yordam berishga tayyormiz. Quyidagi shaklni to‘ldiring — tez orada siz bilan bog‘lanamiz.",

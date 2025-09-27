@@ -203,6 +203,9 @@
             "close": "Fermer"
         }
     },
+    "gallery": {
+        "title": "Galerie"
+    },
     "contact": {
         "title": "Nous contacter",
         "description": "Planifions ensemble votre voyage inoubliable en Ouzbékistan. Remplissez le formulaire et nous vous répondrons rapidement.",
